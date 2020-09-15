@@ -1,0 +1,11 @@
+name: CI
+
+on:
+  push:
+    branches: [ testing ]
+
+jobs:
+  mirror-to-master:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: zofrex/mirror-branch@<%= @version %>
