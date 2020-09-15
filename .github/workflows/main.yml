@@ -1,4 +1,4 @@
-name: Mirror
+name: CI
 
 on:
   push:
@@ -8,4 +8,4 @@ jobs:
   mirror-to-master:
     runs-on: ubuntu-latest
     steps:
-    - uses: zofrex/mirror-branch@v1
+    - uses: zofrex/mirror-branch@8c5b50d36664d09bfc0c4a4f3dc3ce202d90c27a
