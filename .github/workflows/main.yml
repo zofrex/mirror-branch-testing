@@ -8,4 +8,4 @@ jobs:
   mirror-to-master:
     runs-on: ubuntu-latest
     steps:
-    - uses: zofrex/mirror-branch@412f336ef46e717ba07dd1f04ba48421203dee84
+    - uses: zofrex/mirror-branch@c2dd642b290fc4a556014370aba4f9f4228aee16
